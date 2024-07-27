@@ -1,0 +1,38 @@
+ <h2>Make a Reservation</h2>
+            <p>Reserve your table online or call us at [Phone Number].</p>
+            <form action="#">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="date" placeholder="Date" required>
+                <select>
+                    <option value="">Time</option>
+                    <option value="6:00 PM">6:00 PM</option>
+                    <option value="7:00 PM">7:00 PM</option>
+                    <option value="8:00 PM">8:00 PM</option>
+                </select>
+                <textarea placeholder="Special Requests" rows="4"></textarea>
+                <button type="submit">Submit Reservation</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Address: 123 Main Street, Anytown, USA</p>
+            <p>Phone: (555) 555-5555</p>
+            <p>Email: info@thecozykitchen.com</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2804.522661093768!2d-74.0060152847512!3d40.71282277943927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f0460f193%3A0x9965c454277e423!2s123%20Main%20St%2C%20New%20York%2C%20NY%2010001%2C%20USA!5e0!3m2!1sen!2sus!4v1694600542563!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 The Cozy Kitchen. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>

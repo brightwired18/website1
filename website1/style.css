@@ -1,0 +1,127 @@
+/* style.css */
+
+body {
+    font-family: 'Arial';
+    margin: 0;
+    padding: 0;
+    background-color: #754acb;
+    color: #f3eded;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #e1e3f1;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgb(31, 19, 19);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 4.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header a {
+    color: #080808;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: ontline-block;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 23px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-text {
+    text-align: left;
+}
+
+.hero img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #fffcfc;
+    color: #0c0c0c;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e22b2b;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: #b0aeae;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(249, 246, 246);
+    flex: 1 0 300px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+.menu-item h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #d6c8c8;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: #ab1f1f;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0,4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #850a9e;
+}
+.search{
+    width: 330px;
+    float: right;
+    margin-left: 270px;
+
+}
